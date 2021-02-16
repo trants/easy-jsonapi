@@ -1,0 +1,27 @@
+{
+  "name": "trants/easy-jsonapi",
+  "type": "library",
+  "description": "Handle the output of complex data structures ready for API output.",
+  "homepage": "https://trants.io",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Son T. Tran",
+      "email": "contact@trants.io"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.3",
+    "league/fractal": "^0.19.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Trants\\EasyJsonApi\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
